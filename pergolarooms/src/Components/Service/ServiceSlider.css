@@ -1,0 +1,87 @@
+.service-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  color: #ffffff;
+}
+
+.content-subheading {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.content-description {
+  font-weight: 200;
+}
+
+.service-readmore-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+
+.service-readmore-link:hover {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.service-readmore-link svg {
+  margin-right: 5px;
+}
+
+.container-fluid {
+  position: relative;
+}
+
+.slider-dots {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .Service .slider-dots {
+    top: 70% !important;
+  }
+}
+
+@media screen and (min-width: 610px) and (max-width: 765px) {
+  .Service .slider-dots {
+    top: 80% !important;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .service-content {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+}

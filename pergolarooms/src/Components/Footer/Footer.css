@@ -1,0 +1,29 @@
+.Footer {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+ul {
+  padding-left: 0px !important;
+}
+
+ul li {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.FbLogo {
+  width: 21px;
+  height: 20px;
+}
+
+.InstaLogo {
+  width: 21px;
+  height: 20px;
+}
+
+section span {
+  cursor: pointer;
+}
+.Footer p {
+  font-size: 14px;
+}

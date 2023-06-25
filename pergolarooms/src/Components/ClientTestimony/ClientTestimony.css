@@ -1,0 +1,40 @@
+#testimonial-header {
+  background-image: url("../../assets/ClientTestimonyImages/Testimonial\ Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Testimoni-first {
+  visibility: hidden;
+}
+
+#testimonial-header img {
+  height: 50px;
+}
+
+/* ----------MEDIA QUERIES FOR TABLET----------- */
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .Testimoni-first {
+    height: 150px;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 912px) and (max-width: 1024px) {
+  .Testimoni-first {
+    height: 150px;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .Testimoni-first {
+    height: 150px;
+    visibility: hidden;
+  }
+}
+
+.testimony-review {
+  font-size: 14px;
+  line-height: 20px;
+}

@@ -1,0 +1,68 @@
+.portfolio {
+  background-image: url("../../assets/PortfolioImages/bg-architecture-agency copy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.portfolio-heading {
+  color: white;
+}
+
+.portfolio-subheading {
+  color: white;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 100;
+}
+
+.portfolio-description {
+  color: white;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.portfolio-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.portfolio-link:hover {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.portfolio-link svg {
+  margin-right: 5px;
+}
+
+.Portfolio-Slider .slick-slider {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .portfolio {
+    height: 800px;
+  }
+}
+
+.slick-dots li button:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #6b6b6b;
+  margin: 0 auto;
+}
+/* Change the active dot color */
+.slick-dots li.slick-active button:before {
+  background-color: black;
+}

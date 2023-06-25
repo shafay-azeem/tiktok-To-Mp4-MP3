@@ -1,0 +1,12 @@
+.workflow-section {
+}
+
+.workflow-box p {
+  font-size: 14px;
+  line-height: 20px;
+  /* width: 90%; */
+}
+
+.workflow-box img {
+  width: 100px;
+}

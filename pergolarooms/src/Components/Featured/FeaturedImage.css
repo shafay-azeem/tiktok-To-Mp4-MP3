@@ -1,0 +1,52 @@
+.Featured-Left-Image {
+  background-color: white;
+}
+
+.Featured-Left-Image img {
+  transform: rotate(90deg);
+}
+/* 
+.Featured-Right-Image {
+    background-image: url('../../assets/FeaturedImages/h1-port-slider-img-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+} */
+
+.Feature-Architecture {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.Feature-Architecture button {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border: none;
+}
+
+/* -----------MEDIA QUERIES------------- */
+
+@media screen and (min-width: 768px) {
+  .Featured-Left-Image {
+    background-color: white;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Featured-Left-Image {
+    display: none;
+  }
+}
